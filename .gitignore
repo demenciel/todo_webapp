@@ -1,0 +1,34 @@
+# .gitignore
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore build and distribution folders
+dist/
+build/
+
+# Ignore any IDE or editor-specific files/folders
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore other common system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
